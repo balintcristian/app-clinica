@@ -67,19 +67,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLaborator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaborator.Designer.cs">
+      <DependentUpon>FormLaborator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPsihiatrie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPsihiatrie.Designer.cs">
+      <DependentUpon>FormPsihiatrie.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormReceptie.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormReceptie.Designer.cs">
       <DependentUpon>FormReceptie.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTerapiePsihologica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTerapiePsihologica.Designer.cs">
+      <DependentUpon>FormTerapiePsihologica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormLaborator.resx">
+      <DependentUpon>FormLaborator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPsihiatrie.resx">
+      <DependentUpon>FormPsihiatrie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormReceptie.resx">
       <DependentUpon>FormReceptie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTerapiePsihologica.resx">
+      <DependentUpon>FormTerapiePsihologica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

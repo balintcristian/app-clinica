@@ -14,12 +14,13 @@ namespace Proiect
     {
         public Form1()
         {
+          
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.Text = "Meniu";
         }
 
 
@@ -35,9 +36,33 @@ namespace Proiect
 
         private void btnReceptie_Click(object sender, EventArgs e)
         {
-                this.Hide();
+            this.Hide();
             FormReceptie formReceptie= new FormReceptie();
             formReceptie.ShowDialog();
+            this.Show();
+        }
+
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormLaborator formLaborator= new FormLaborator();
+            formLaborator.ShowDialog();
+            this.Show();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPsihiatrie formPsihiatrie = new FormPsihiatrie();
+            formPsihiatrie.ShowDialog();
+            this.Show();
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormTerapiePsihologica formTerapPsihol = new FormTerapiePsihologica();
+            formTerapPsihol.ShowDialog();
             this.Show();
         }
     }
